@@ -1,8 +1,6 @@
 <?php
   namespace Api\models;
 
-  use Api\Database\Connection;
-
   Class Pensamento {
     private static function connection(){
       $connection = new \PDO(DBDRIVE.': host='.DBHOST.'; dbname='.DBNAME, DBUSER, DBPASSWORD);
