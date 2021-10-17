@@ -1,7 +1,7 @@
 # Pensamento
 
 ## Descrição
-Um simples projeto para explorar os conceitos de API com PHP puro
+Um simples projeto para explorar os conceitos de API com PHP puro.
 
 ## APi Rest em PHP 8.0.9
 API Rest desenvolvida à fim de aprender os conceitos relacionados à webservice na linguagem PHP.
@@ -21,11 +21,11 @@ No entanto, segue os conceitos de Models e Controllers.
   - Métodos GET, POST e DELETE
 
 ## Rotas
-  ### GET Pensamento
+  ### GET {List / Filter}
     - /api/pensamento
     - /api/pensamento/{username}
     
-  ### POST
+  ### POST {Create / Update}
     - /pensamento
     - /pensamento/{id}
     
