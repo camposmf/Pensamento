@@ -1,0 +1,130 @@
+
+body {
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background: url("../img/bghappysad.png") no-repeat center;
+  background-size: contain;
+}
+
+.header {
+  height: 50vh;
+  text-align: center; 
+}
+
+.header .page-controller{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .page-controller a  {
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header .page-controller a:hover {
+  opacity: 0.9;
+}
+
+.header h1 {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;  
+  font-size: 3.2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.main h2 {
+  cursor: pointer;
+  font-weight: 800;
+  background: linear-gradient(to right, #8d68d1 51%, #fddd4e 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main .img-feelings{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .img-feelings img {
+  height: 100px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.main .img-feelings img:nth-child(1){
+  margin-left: 7px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToIndex a{
+  background-image: none !important;
+}
+
+.footer a  {
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #8d68d1 51.40%, #fddd4e 0);
+}
+
+.footer a:hover {
+  opacity: 0.9;
+}
+
+.footer .submitButton {
+  border: none;
+  width: 266px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgb(133 133 133 / 86%);
+  background-image: linear-gradient(to right, #8d68d1 51%, #fddd4e 53%);
+}
+
+.footer .submitButton:hover{
+  opacity: 0.9;
+}
+
+.inputs{
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px 0px;
+  padding: 0px 0px 8px 0px;
+}

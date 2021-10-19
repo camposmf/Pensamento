@@ -9,7 +9,6 @@
     }
 
     public static function create($data){
-      
       $connection = self::connection();
 
       $sql = 'INSERT INTO tb_pensamento (nm_username, ds_pensamento, ds_gpsocial) VALUES (:nm, :pt, :gp)';
@@ -18,7 +17,6 @@
       $statement->bindValue(':nm', $data['nm_username']);
       $statement->bindValue(':pt', $data['ds_pensamento']);
       $statement->bindValue(':gp', $data['ds_gpsocial']);
-
       $statement->execute();
 
       if($statement->rowCount() > 0)

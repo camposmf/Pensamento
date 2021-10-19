@@ -1,9 +1,6 @@
 <?php
 
-use Api\controllers\PensamentoController;
-
-header('Content-Type: application/json');
-
+  header('Content-Type: application/json');
   require_once realpath('../vendor/autoload.php');
 
   if (isset($_GET['url'])) {
@@ -13,9 +10,7 @@ header('Content-Type: application/json');
       array_shift($url);
 
       $controller = 'Api\controllers\\'.ucfirst($url[0]).'Controller';
-      
       array_shift($url);
-
       $method = strtolower($_SERVER['REQUEST_METHOD']);
       
       try {

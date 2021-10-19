@@ -1,0 +1,57 @@
+
+
+.container .header{
+  height: 37vh;
+}
+
+.container .main{
+  height: 40vh;
+}
+
+.main .data-gridview{
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin-bottom: 5em;
+}
+
+.main .search-input input {
+   margin-right: 10px;
+}
+
+.main .table-pensamento {
+  border: 0;
+  width: 80%;
+  width: 851px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #8d68d1 77%, #fddd4e 0);
+}
+
+.main .table-pensamento tr {
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+.main .table-pensamento td {
+  padding: 10px;
+}
+
+.main .table-pensamento td a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main .table-pensamento td #update:hover{
+  color: #0d6efd;
+}
+
+.main .table-pensamento td #delete:hover{
+  color: rgba(237,28,36);
+}
+
+.main .search-input img{
+  cursor: pointer;
+}
